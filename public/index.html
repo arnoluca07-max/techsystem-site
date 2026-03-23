@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechSystem — Una presenza online elegante e memorabile</title>
+  <meta name="description" content="TechSystem realizza siti eleganti, chiari e d’impatto per chi vuole presentarsi online con stile e credibilità." />
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <div class="brand-mark">T</div>
+        <div>
+          <div>TechSystem</div>
+          <small>Eleganza, chiarezza, presenza</small>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="#valore">Valore</a>
+        <a href="#stile">Stile</a>
+        <a href="#contatti">Contatti</a>
+        <a href="/admin" class="btn secondary">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Un’immagine forte comincia dalla prima pagina che le persone vedono</div>
+          <h1 id="hero_title">Un sito che fa sentire il tuo lavoro più <span class="gradient">forte</span>, più elegante e più credibile.</h1>
+          <p class="lead" id="hero_subtitle">TechSystem crea presenze online luminose, ordinate e memorabili: pagine che accolgono, raccontano bene chi sei e fanno nascere fiducia al primo sguardo.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contatti">Scrivimi ora</a>
+            <a class="btn secondary" href="#valore">Scopri di più</a>
+          </div>
+        </div>
+        <div class="hero-card glass">
+          <div class="visual">
+            <div class="floating-card">
+              <div class="kicker">Presenza online curata</div>
+              <div class="strong-line">Chi entra capisce subito di trovarsi davanti a qualcosa di serio, bello e ben pensato.</div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>Impatto immediato</strong><span class="small">Una prima impressione più alta e più pulita.</span></div>
+            <div class="stat"><strong>Lettura semplice</strong><span class="small">Messaggi chiari e sezioni facili da seguire.</span></div>
+            <div class="stat"><strong>Più fiducia</strong><span class="small">Una presenza che invita a scrivere con naturalezza.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="valore">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 id="intro_title">Una presenza online che lascia il segno</h2>
+            <p id="intro_text">Ogni dettaglio è pensato per dare una sensazione alta, curata e rassicurante. Il risultato è una pagina bella da vedere, facile da capire e piacevole da usare sia da telefono sia da computer.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon">✦</div>
+            <h3 id="section_one_title">Fa subito una grande impressione</h3>
+            <p id="section_one_text">Chi arriva capisce immediatamente che dietro il brand c’è gusto, attenzione e desiderio di fare le cose bene.</p>
+          </article>
+          <article class="card">
+            <div class="icon">☼</div>
+            <h3 id="section_two_title">Racconta con chiarezza quello che fai</h3>
+            <p id="section_two_text">Parole semplici, ritmo pulito e sezioni ordinate aiutano chi legge a orientarsi senza fatica.</p>
+          </article>
+          <article class="card">
+            <div class="icon">❤</div>
+            <h3 id="section_three_title">Invita le persone a scriverti</h3>
+            <p id="section_three_text">La pagina accompagna il visitatore con naturalezza verso il contatto, senza confusione e senza distrazioni.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stile">
+      <div class="container story">
+        <div class="panel glass story-copy">
+          <div class="eyebrow"><span class="dot"></span> Un look pulito, luminoso e di livello alto</div>
+          <h2>Ogni sezione è pensata per farsi ricordare</h2>
+          <p class="lead">Linee morbide, ritmo visivo equilibrato, spazi ariosi e dettagli raffinati fanno percepire ordine, cura e valore. Tutto è costruito per essere piacevole da leggere e naturale da usare, in qualsiasi momento della giornata e su qualsiasi schermo.</p>
+        </div>
+        <div class="story-box glass"></div>
+      </div>
+    </section>
+
+    <section id="contatti">
+      <div class="container contact-wrap">
+        <div class="panel glass">
+          <div class="eyebrow"><span class="dot"></span> Un messaggio può essere l’inizio di qualcosa di importante</div>
+          <h2>Raccontami il tuo progetto</h2>
+          <p class="lead" id="contact_note">Scrivimi per raccontarmi la tua attività e l’immagine che vuoi dare online.</p>
+          <div class="sep"></div>
+          <p><strong>Email</strong><br><span id="contact_email">arnoluca07@gmail.com</span></p>
+        </div>
+        <div class="panel glass">
+          <form id="contactForm">
+            <label>Nome<input type="text" name="name" maxlength="80" required /></label>
+            <label>Email<input type="email" name="email" maxlength="120" required /></label>
+            <label>Di cosa hai bisogno?
+              <select name="need" required>
+                <option value="Presentarmi meglio online">Presentarmi meglio online</option>
+                <option value="Rinnovare la mia immagine">Rinnovare la mia immagine</option>
+                <option value="Avere una pagina più elegante">Avere una pagina più elegante</option>
+                <option value="Rendere più chiaro ciò che faccio">Rendere più chiaro ciò che faccio</option>
+              </select>
+            </label>
+            <label>Messaggio<textarea name="message" maxlength="1500" required></textarea></label>
+            <button class="btn" type="submit">Invia il messaggio</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-box">
+      <div>
+        <strong>TechSystem</strong><br>
+        <span>Una presenza online elegante, chiara e capace di farsi ricordare.</span>
+      </div>
+      <div>© <span id="year"></span> TechSystem</div>
+    </div>
+  </footer>
+
+  <div class="notice" id="notice"></div>
+  <script src="/static/js/public.js" defer></script>
+</body>
+</html>
